@@ -2,7 +2,7 @@
 Creating a basic website to showcase various skills learned so far.
 
 ## HTML skills to be used;
-    -Creating titles
+    -creating titles
     -headers
     -lists
     -adding images
@@ -11,3 +11,4 @@ Creating a basic website to showcase various skills learned so far.
     -git clone
     -git add
     -git commit
+    -practicing good commit habits.

@@ -1,7 +1,7 @@
 # odin-recipes
 Creating a basic website to showcase various skills learned so far.
 
-## Skills to be used;
+## HTML skills to be used;
     -Creating titles
     -headers
     -lists

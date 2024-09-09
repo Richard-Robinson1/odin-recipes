@@ -1,7 +1,13 @@
 # odin-recipes
-Creating a basic recipe website to showcase some basic html skills and git commands such as;
-    Creating titles, headers, lists, adding images, and hyperlinks    
-Using git to clone and commit changes to github repo. Commands such as;
-    git clone
-    git add
-    git commit
+Creating a basic website to showcase various skills learned so far.
+
+## Skills to be used;
+    -Creating titles
+    -headers
+    -lists
+    -adding images
+    -hyperlinks
+## Git commands used;
+    -git clone
+    -git add
+    -git commit

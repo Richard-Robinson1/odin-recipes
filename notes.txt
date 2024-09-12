@@ -1,0 +1,11 @@
+To do on brisket page
+
+Remove all default padding from the page
+Add a background color to the page
+Center the text
+Have everything be in a 'card' 
+    add some paddins and margins to the card to have it centered on the page
+Have each step be in its own card with some increased margins
+Add a background shadow to the overall card and the step cards
+Have the ingredients be in its own card as well
+Make a link that takes us back to the main page on the bottom of the card.

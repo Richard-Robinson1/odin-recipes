@@ -1,0 +1,23 @@
+body {
+    background-color: dimgray;
+    font-family: "Lucida Console", Arial, Verdana;
+}
+
+p {
+    font-style: italic;
+}
+
+div {
+    background-color: bisque;
+}
+
+#page-title {
+    font-size: 50px;
+    font-family: monospace, Arial, Verdana;
+    text-align: center;
+}
+
+.header-text {
+    color: gold;
+    font-size: 25px;
+}

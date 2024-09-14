@@ -1,8 +1,20 @@
+/* 
+text: black
+background: #f0f7fc
+primary: #2b89d6
+secondary: #a892ea
+accent: #ab58df 
+*/
+
 * {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
-    background-color: dimgray;
+    background-color: #f0f7fc;
     font-family: "Lucida Console", Arial, Verdana;
 }
 
@@ -23,4 +35,51 @@ div {
 .header-text {
     color: gold;
     font-size: 25px;
+}
+
+
+.recipe-card,
+.ingredient-card,
+.step-card,
+.title-card {
+    background-color:#d1a7e9;
+    border-radius: 25px;
+    margin: 15px;
+    box-shadow: 1px 1px 10px hsl(0, 0%, 0%);
+}
+
+.recipe-card {
+    padding: 5px;
+    background-color: #2b89d6;
+    margin: 50px;
+}
+
+.ingredient-card {
+    border: 20px;
+    /* margin: 20px; */
+    padding: 25px 50px;
+}
+
+.step-card {
+    padding: 25px 50px;
+}
+
+li {
+    padding: 10px;
+    text-align: left;
+}
+
+.title-card {
+    /* margin: 20px; */
+    padding: 20px;
+    text-align: center;
+    background-color:#cd9debce;
+}
+
+.button {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px hsl(0, 0%, 0%)
 }

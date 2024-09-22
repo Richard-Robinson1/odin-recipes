@@ -1,9 +1,10 @@
 /* 
 text: black
-background: #f0f7fc
-primary: #2b89d6
-secondary: #a892ea
-accent: #ab58df 
+background: ##011C27
+primary: #03254E
+secondary: #545677
+accent1: (light pink) #CBC5EA
+accent2: (OJ) #FF8811
 */
 
 * {
@@ -13,8 +14,9 @@ accent: #ab58df
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color: #f0f7fc;
+    background-color: rgba(0, 0, 0, 0.699);
     font-family: "Lucida Console", Arial, Verdana;
 }
 
@@ -30,13 +32,118 @@ div {
     font-size: 50px;
     font-family: monospace, Arial, Verdana;
     text-align: center;
+    padding-bottom: 25px;
+
+}
+
+#welcome-box-header {
+    padding-bottom: 10px;
 }
 
 .header-text {
-    color: gold;
+    color: white;
     font-size: 25px;
 }
 
+.welcome-box {
+    background-color: black;
+    text-align: center;
+    color: white;
+    background-image: url(../images/waterfalls.jpg);
+    background-size: cover;
+    height: 400px;
+    align-content: center;
+}
+
+#odins-welcome {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container {
+    background-color: chocolate;
+    display: flex;
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+.container-header {
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+}
+
+.box-link {
+    text-decoration: none;
+    display: block;
+}
+
+.box-link .box {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 25px;
+    height: 350px;
+    width: 200px;
+    padding: 15px;
+    /* margin-top: 25px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.699);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+.box-text {
+    position: absolute;
+    bottom: 0;                /* Position at the bottom */
+    left: 0;
+    width: 100%;              /* Span the entire width of the box */
+    background-color: rgba(0, 0, 0, 0.7);  /* Semi-transparent black background */
+    color: white;             /* Text color */
+    text-align: center;       /* Center the text */
+    padding: 10px 0;          /* Vertical padding */
+    box-sizing: border-box;   /* Include padding in width calculations */
+}
+.box-link .box:hover {
+    transform: scale(1.05);
+    background-color: #333;
+    cursor: pointer;
+}
+
+.info-box {
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    height: 100px;
+    width: 100px;
+}
+
+#brisket-card {
+    background-image: url(../images/brisket.jpg);
+
+}
+
+#mac-and-cheese-card {
+    background-image: url(../images/mac-and-cheese.jpeg);
+}
+
+#deviled-egg-card {
+    background-image: url(../images/deviled-eggs.jpeg);
+}
+
+#honey-mead-card {
+    background-image: url(../images/honey-mead.jpg);
+}
+
+#whole-hog-card {
+    background-image: url(../images/whole-hog.jpeg);
+}
 
 .recipe-card,
 .ingredient-card,
